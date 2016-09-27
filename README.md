@@ -1,0 +1,2 @@
+# Texterkennung
+Texterkennung mit Android
