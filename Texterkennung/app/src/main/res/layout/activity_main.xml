@@ -13,7 +13,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        android:text="Button bitte drücken!"
         android:id="@+id/textView"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true" />
@@ -24,10 +24,10 @@
         android:layout_height="wrap_content"
         android:id="@+id/button"
         android:layout_below="@+id/textView"
-        android:layout_centerHorizontal="true" />
+        android:layout_centerHorizontal="true"/>
 
     <TextView
-        android:text="TextView"
+        android:text="Ergebnis des OCR!"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/textViewResult"
