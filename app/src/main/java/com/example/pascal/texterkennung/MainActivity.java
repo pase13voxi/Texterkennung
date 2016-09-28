@@ -210,7 +210,13 @@ public class MainActivity extends AppCompatActivity {
 
         tessBaseAPI.init(DATA_PATH, lang);
 
-        //some Comments
+        //       //EXTRA SETTINGS
+        //        //For example if we only want to detect numbers
+        //        tessBaseApi.setVariable(TessBaseAPI.VAR_CHAR_WHITELIST, "1234567890");
+        //
+        //        //blackList Example
+        //        tessBaseApi.setVariable(TessBaseAPI.VAR_CHAR_BLACKLIST, "!@#$%^&*()_+=-qwertyuiop[]}{POIU" +
+        //                "YTRWQasdASDfghFGHjklJKLl;L:'\"\\|~`xcvXCVbnmBNM,./<>?");
 
         Log.d(TAG, "Training file loaded");
         tessBaseAPI.setImage(bitmap);
