@@ -1,2 +1,5 @@
-# Texterkennung mit Android
-Für die Texterkennung wurde Tesseract verwendet und für das ausschneiden des Bilds wird ein Cropper von Edmodo verwendet.
+# Text recognition with Android
+This is an example to use text recognition with Android. 
+# Libraries
+- Tesseract for text recognition
+- Cropper from Edmodo Inc to crop an Image
